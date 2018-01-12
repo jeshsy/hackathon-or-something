@@ -7,7 +7,7 @@ const path = require('path');
 const { routes } = require('./api/routes/routes');
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: true,
   methods: 'GET, HEAD, PUT, PATCH, POST, DELETE',
   preflightContinue: true,
   optionsSuccessStatus: 204,
